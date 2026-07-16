@@ -107,6 +107,28 @@ launch_policy
 launch_nodes traxxas detector imu tof lidar
 ```
 
+## Acknowledgments
+
+This project was completed as part of the **AI for Robotics (ELEN90095)** course at the **University of Melbourne** and is built upon the course materials provided by the instructors.
+
+The repository uses the course's code skeleton and Jupyter notebook templates. Our contribution was to implement the required algorithms and complete the designated sections of the provided code. In particular, this includes the implementation of the PolicyNode class between the following markers:
+
+```
+  # =======================================
+  # START OF: INSERT POLICY CODE BELOW HERE
+  # =======================================
+
+  ...
+
+  # ===============================================================================================================
+  #                                               END OF THE POLICY
+  # ===============================================================================================================
+```
+
+In addition, several sections of the accompanying Jupyter notebooks were completed on top of templates supplied throughout the course.
+
+Many thanks to the course instructors and organizers for providing the project framework and teaching materials.
+
 ## Resources
 
 Silver, T., Allen, K., Tenenbaum, J., and Kaelbling, L. (2019). Residual policy learning. [https://arxiv.org/pdf/1812.06298]
