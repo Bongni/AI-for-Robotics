@@ -25,17 +25,20 @@ The final layout should look like this
 
 ```
 AI-for-Robotics/
-├── ai4r-gym/
-├── ai4r-system/
-├── config/
-├── models/
-├── results/
-├── PCA_RL.ipynb
-├── PCA.ipynb
-├── PID_RL.ipynb
-├── policy_node_RL.py
-├── policy_node.py
-└── README.md
+├── ai4r-gym/                   # Cloned repo 
+├── ai4r-system/                # Cloned repo 
+├── config/                     # Model configurations
+├── models/                     # RL model
+├── results/                    # Python code for policy evaluation
+|
+├── PCA_RL.ipynb                # Policy using PID, PCA and RL
+├── PCA.ipynb                   # Policy using PID and PCA
+├── PID_RL.ipynb                # Policy using PID and RL
+|
+├── policy_node_RL.py           # Base policy augmented with RL
+├── policy_node.py              # Base policy using PID and PCA
+|
+└── README.md                   # Project overview and documentation
 ```
 
 
